@@ -1,0 +1,30 @@
+/* makeAppointment.css */
+.image-container {
+    position: relative;
+  }
+  
+  .appointment-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .providers-list {
+    margin-top: 20px;
+  }
+  
+  .provider-item {
+    margin-bottom: 10px;
+  }
+  
+  .book-appointment-button {
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  

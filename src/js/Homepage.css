@@ -1,0 +1,54 @@
+.app {
+    text-align: center;
+  }
+  
+  /* Homepage.css */
+.image-container {
+    position: relative;
+  }
+  
+  .overlay-table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Add other styles as needed */
+  
+  .header {
+    background-color: rgb(123, 123, 195);
+    padding: 10px;
+    color: white;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .cover-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .registration-button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  

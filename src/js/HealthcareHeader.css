@@ -1,0 +1,33 @@
+/* Your CSS file, e.g., HealthcareLandingPage.css */
+
+.healthcare-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 10px;
+  }
+  
+  .left-options1 a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .left-options1 a.active {
+    font-weight: bold;
+    color: #0066cc; /* Change the color as needed */
+  }
+  
+  .right-options1 button {
+    background-color: #ff3333;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .right-options1 button:hover {
+    background-color: #cc0000;
+  }
+  
